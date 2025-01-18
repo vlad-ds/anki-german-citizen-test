@@ -14,7 +14,8 @@ Date of exam document: 24.06.2024
 
 # How To Use
 
-- Download Anki
+- Install Anki
+- Download the decks. Open the `.apkg` file in GitHub and select 'Download raw file'.
 - Import the decks
 - Start studying!
 
