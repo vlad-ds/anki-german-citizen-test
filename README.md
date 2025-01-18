@@ -1,8 +1,13 @@
-Need to study for the German citizenship test? You're in the right place!
+# Prepare for the German Citizenship Test
 
-For this project, I used AI to extract all the questions in the official German citizenship test document. Then AI translated the question, identified the correct answer and wrote extensive explanations.
+Get all the questions for the **German Citizenship Test** as an Anki deck. 
+
+Every question card features a translation to English and the explanation of the correct answer.
+
+Powered by the GPT API.
 
 Published: 18.01.2025
+
 Date of exam document: 24.06.2024
 
 [Official test download](https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html?nn=282388)
@@ -22,19 +27,25 @@ https://apps.ankiweb.net/
 
 # Contents
 
-anki_decks/ 
-	Import these decks into your Anki app.
-	Note: Only the base questions and the Berlin questions have been saved as decks.
-	Note: I did some manual polishing on these questions that you won't find in the CSV files.
+`anki_decks/`
 
-data/anki_with_images/
-	Anki cards in CSV format. You can import these into Anki and turn them into decks.
-	For each question with an image attached, find the PNG image with the number of the question. 
-	You can load this image into your Anki card (you only need to do this once.)
+Import these decks into your Anki app.
+ 
+Note: Only the base questions and the Berlin questions have been saved as decks.
+ 
+Note: I did some manual polishing on these questions that you won't find in the CSV files.
 
-data/gesamtfragenkatalog-lebenindeutschland.pdf
-	The official PDF data source
+`data/anki_with_images/`
 
+Anki cards in CSV format. You can import these into Anki and turn them into decks.
+
+For each question with an image attached, find the PNG image with the number of the question. 
+
+You can load this image into your Anki card (you only need to do this once.)
+
+`data/gesamtfragenkatalog-lebenindeutschland.pdf`
+
+The official PDF data source.
 
 # Disclaimers
 
@@ -44,9 +55,10 @@ I used the GPT API to extract the questions and derive the answers. While I foun
 
 Starting with just a PDF, I built an AI-powered workflow to:
 
-* Extract questions and find accurate answers
+* Transcribe the questions into a structured format
+* Derive the correct answer for each question
 * Generate clear explanations
-* Format the data for seamless use in tools like Anki
+* Format the data into Anki format
 
 Interested in creating something similar or unlocking the potential of AI for your projects?
 
