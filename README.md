@@ -12,6 +12,10 @@ Date of exam document: 24.06.2024
 
 [Official test download](https://www.bamf.de/SharedDocs/Anlagen/DE/Integration/Einbuergerung/gesamtfragenkatalog-lebenindeutschland.html?nn=282388)
 
+# Anki Links
+
+Download directly from Anki: https://ankiweb.net/shared/by-author/2104883500
+
 # How To Use
 
 - Install Anki
